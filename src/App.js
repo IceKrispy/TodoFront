@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_URL = 'http://localhost:8000/api/tasks/';
+  const API_URL = 'https://bcknd-t0fr.onrender.com/tasks';
 
   useEffect(() => {
     const fetchTodos = async () => {
